@@ -35,7 +35,6 @@ public class RogiDAOImpl implements RogiDAO {
 
 	@Override
 	public Optional<Integer> totalSize() {
-		Optional<Integer> size = Optional.empty();
 		int total = this.list.size();
 		Optional<Integer> totalSize = Optional.of(total);
 		return totalSize;
